@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Ysabeau", sans-serif;
+}
+
+/* body {
+  padding: 10em 10em 30em 10em;
+  margin-bottom: 30em;
+} */
+
+body {
+  padding: 10em;
+  /* width: 20em; */
+  height: 100vh;
+  background-image: url("img/pos1.jpg");
+  background-size: cover;
+  border: 5px solid black;
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+}
+.passengerapp {
+  background-color: white;
+  padding: 10em;
+  max-width: 18em;
+  margin: auto;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+h1 {
+  font-family: Roboto;
+  font-weight: 400;
+  /* font-size: 25px; */
+}
+
+#count-el {
+  padding: 0em 2em;
+  font-family: Roboto;
+  font-size: 50px;
+}
+
+p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+#increament-btn {
+  background-color: blue;
+  border-radius: 9px;
+  color: white;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  width: 16em;
+  font-weight: bold;
+  border: none;
+  margin: 0.3em;
+}
+
+#save-btn {
+  background-color: RED;
+  border-radius: 9px;
+  color: white;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  width: 16em;
+  font-weight: bold;
+  border: none;
+  margin: 0.3em;
+}
+
+/* #save-btn :hover,
+#increament-btn :hover {
+  color: active;
+} */
